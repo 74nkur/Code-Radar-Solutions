@@ -5,9 +5,9 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
 
     if(a + b > c && a + c > b && b + c > a) {
-        printf("Valid Triangle\n");
+        printf("Valid\n");
     } else {
-        printf("Invalid Triangle\n");
+        printf("Invalid\n");
     }
 
     return 0;
