@@ -4,10 +4,10 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(a>b){
-        printf("a is grater");
+        printf("True");
     }
     else{
-        printf("b is grater");
+        printf("False");
     }
     return 0;
 }
