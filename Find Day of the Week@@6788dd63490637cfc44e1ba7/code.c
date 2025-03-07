@@ -20,7 +20,7 @@ int main(){
     else if(day==6){
         printf("Saturday");
     }
-    else if{
+    else if(day==7){
         printf("Sunday");
     }
     else{
