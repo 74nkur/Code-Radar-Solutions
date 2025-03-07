@@ -4,16 +4,16 @@ int main(){
     char c;
     scanf("%f %f %c",&a,&b,&c);
     if(c == '+'){
-        printf(a+b);
+        printf("%d\n",a+b);
     }
     else if(c == '-'){
-        printf(a-b);
+        printf("%d\n",a-b);
     }
     else if(c == '*'){
-        printf(a*b);
+        printf("%d\n", a*b);
     }
     else if(c == '/'){
-        printf(a/b);
+        printf("%d\n",a/b);
     }
     else{
         printf("Invalid");
