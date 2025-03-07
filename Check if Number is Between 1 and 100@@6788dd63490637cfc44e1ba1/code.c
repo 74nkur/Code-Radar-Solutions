@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a = 50;
+    int a;
     scanf("%d",&a);
     if(1<=a || a>=100){
         printf("In Range\n");
