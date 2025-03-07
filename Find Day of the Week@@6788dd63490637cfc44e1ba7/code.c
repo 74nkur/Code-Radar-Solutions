@@ -2,7 +2,7 @@
 int main(){
     int day;
     scanf("%d",&day);
-    if(day==1);{
+    if(day==1){
         printf("Monday");
     }
     else if(day==2){
