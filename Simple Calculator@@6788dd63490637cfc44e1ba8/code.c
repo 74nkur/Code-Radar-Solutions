@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    char c;
+    char c[50];
     scanf("%d %d %c",&a,&b,&c);
     if(c=='+'){
-        printf(a+b);
+        printf("Addition: %d\n",a+b,"+");
     }
     else if(c=='-'){
-        printf(a-b);
+        printf("Subtraction: %d\n",a-b,"-");
     }
     else if(c=='*'){
-        printf(a*b);
+        printf("Multiplication: %d\n", a*b,"*");
     }
     else if(c=='/'){
-        printf(a/b);
+        printf("Division: %d\n",a/b,"/");
     }
     else{
         printf("Invalid");
