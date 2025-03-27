@@ -2,7 +2,7 @@
 
 int main()
 {
-    int count;
+    int cout;
     int a = 12, b = 25;
     int result = a | b;
     cout << result;
