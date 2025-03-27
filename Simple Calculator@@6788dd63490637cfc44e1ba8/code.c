@@ -2,9 +2,8 @@
 int main(){
     float a,b;
     char c;
-    scanf("%f",&a);
-    scanf("%f",&b);
     scanf("%c",&c);
+    scanf("%f %f",&a,&b);
     if(c == '+'){
         printf("%f\n",a+b);
     }
