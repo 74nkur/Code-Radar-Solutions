@@ -3,7 +3,7 @@
 int main()
 {
     int cout;
-    int a = 12, b = 25;
+    int a = 5, b = 3;
     int result = a | b;
     cout << result;
 
