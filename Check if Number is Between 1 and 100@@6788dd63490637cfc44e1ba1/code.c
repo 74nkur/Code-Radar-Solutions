@@ -3,10 +3,10 @@ int main(){
     int a;
     scanf("%d",&a);
     if(0<a || a>101){
-        printf("In Range\n");
+        printf("In Range");
     }
     else{
-        printf("Out of Range\n");
+        printf("Out of Range");
     }
     return 0;
 }
